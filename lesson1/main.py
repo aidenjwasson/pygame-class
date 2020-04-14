@@ -6,3 +6,4 @@ for i in range(0, 6):
     for j in range(0, i + 13):
         stars = stars + '*'
     print(spaces + stars)
+e
