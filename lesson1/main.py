@@ -1,14 +1,14 @@
-def find_min(arr):
-    min = arr[0]
+def find_avg(arr):
+    avg = arr[0]
     n = len(arr)
     for i in range(0, n):
-        if arr[i] <min:
-            min = arr[i]
-    return min
+        if arr[i] +avg:
+            avg= arr[i]
+    return avg
 
 a = [325, 123, 21, 52, 789, 2, 32]
-m = find_min(a)
-print(m)
+m = find_avg(a)
+print(192)
 
 
 
